@@ -33,32 +33,6 @@ const tiposDeErro = [
     'customError'
 ]
 
-/**
- * An object containing validation messages for various form fields.
- * 
- * @property {Object} nome - Validation messages for the "nome" field.
- * @property {string} nome.valueMissing - Message when the "nome" field is empty.
- * @property {string} nome.patternMismatch - Message when the "nome" field does not match the required pattern.
- * @property {string} nome.tooShort - Message when the "nome" field is too short.
- * 
- * @property {Object} email - Validation messages for the "email" field.
- * @property {string} email.valueMissing - Message when the "email" field is empty.
- * @property {string} email.typeMismatch - Message when the "email" field is not a valid email.
- * @property {string} email.tooShort - Message when the "email" field is too short.
- * 
- * @property {Object} cpf - Validation messages for the "cpf" field.
- * @property {string} cpf.valueMissing - Message when the "cpf" field is empty.
- * @property {string} cpf.patternMismatch - Message when the "cpf" field does not match the required pattern.
- * @property {string} cpf.customError - Message when the "cpf" field contains a non-existent CPF.
- * @property {string} cpf.tooShort - Message when the "cpf" field is too short.
- * 
- * @property {Object} aniversario - Validation messages for the "aniversario" field.
- * @property {string} aniversario.valueMissing - Message when the "aniversario" field is empty.
- * @property {string} aniversario.customError - Message when the user is not older than 18 years.
- * 
- * @property {Object} termos - Validation messages for the "termos" field.
- * @property {string} termos.valueMissing - Message when the "termos" field is not accepted.
- */
 
 const mensagens = {
     nome: {
